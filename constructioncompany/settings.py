@@ -26,10 +26,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 
-SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'default-secret-key')
-DEBUG = os.getenv('DEBUG', 'False') == 'True'
+SECRET_KEY = "m9ksslw2l&0km=fyh7=!ddwlj@vb@+nidk(#1%nxsgzo0hb20="
+DEBUG = 'False'
 
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh','.railway.app' , '127.0.0.1', 'localhost', 'sahara-construction.up.railway.app']
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh', "localhost", '127.0.0.1', '.railway.app']
 
 
 # Application definition
